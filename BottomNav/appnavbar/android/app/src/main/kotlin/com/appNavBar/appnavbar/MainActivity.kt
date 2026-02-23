@@ -1,0 +1,5 @@
+package com.appNavBar.appnavbar
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
