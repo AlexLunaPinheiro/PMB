@@ -75,6 +75,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/logo.png
+    - assets/images/fundo_tela_2.jpg
 
   fonts:
     - family: DMSans

@@ -54,6 +54,7 @@ class WelcomePage extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
+                    minimumSize: Size(300, 40),
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
                     padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
@@ -68,6 +69,7 @@ class WelcomePage extends StatelessWidget {
                   ),
                   child: const Text('Começar'),
                 ),
+                Text('O melhor serviço vem daqui', style: TextStyle(color: Color(0xFFc3c3c3)),)
               ],
             ),
           ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mountain_climbing_app/onBoarding.dart';
 import 'package:mountain_climbing_app/welcomePage.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFFA11515)),
       ),
-      home: WelcomePage(),
+      home: Onboarding()
     );
   }
 }
