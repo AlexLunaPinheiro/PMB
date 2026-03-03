@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:mountain_climbing_app/onBoarding2.dart';
+import 'package:mountain_climbing_app/Register.dart';
 
 void main() {
-  runApp(Onboarding());
+  runApp(onBoarding2());
 }
 
-class Onboarding extends StatelessWidget {
-  const Onboarding({super.key});
+class onBoarding2 extends StatelessWidget {
+  const onBoarding2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +64,7 @@ class Onboarding extends StatelessWidget {
                                 child: Padding(
                                   padding: const EdgeInsets.only(left: 20.0),
                                   child: Text(
-                                    'Explore sua grande proxima aventura',
+                                    'Auxilio a seu dispor, ilimitado.',
                                     style: TextStyle(
                                       fontSize: 35,
                                       fontWeight: FontWeight.w400,
@@ -94,7 +94,7 @@ class Onboarding extends StatelessWidget {
                                   width: 20,
                                   height: 20,
                                   decoration: BoxDecoration(
-                                    color: Color(0xFF898989),
+                                    color: Colors.white,
                                     shape: BoxShape.circle,
                                   ),
                                 ),
@@ -129,7 +129,7 @@ class Onboarding extends StatelessWidget {
                                   Row(
                                     children: [
                                       Text(
-                                        'Explore.',
+                                        'Converse.',
                                         style: TextStyle(
                                           fontSize: 32,
                                           fontWeight: FontWeight.w800,
@@ -145,7 +145,7 @@ class Onboarding extends StatelessWidget {
                                           minWidth: 0,
                                         ),
                                         child: Text(
-                                          'Tenha acesso a diversos planos de viagens dos mais variados montes, cumes e montanhas, contando com a maior variedade de preços, países, cidades e experiências do mundo.',
+                                          'Converse com nossos instrutores especializados em viagens, escaladas,montanhas, picos,montes, entre outras maravilhas.Atendimento personalizado, especializado e para você.',
                                           style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.w400,
@@ -189,7 +189,7 @@ class Onboarding extends StatelessWidget {
                                                 context,
                                                 MaterialPageRoute(
                                                   builder: (context) =>
-                                                      const onBoarding2(),
+                                                      Register(),
                                                 ),
                                               );
                                             },

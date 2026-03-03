@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:mountain_climbing_app/Home.dart';
+import 'package:mountain_climbing_app/Register.dart';
+import 'package:mountain_climbing_app/login.dart';
 import 'package:mountain_climbing_app/onBoarding.dart';
+import 'package:mountain_climbing_app/onBoarding2.dart';
 import 'package:mountain_climbing_app/welcomePage.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -15,14 +19,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        fontFamily: 'DMSans', 
-        
+        fontFamily: 'DMSans',
+
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFFA11515)),
       ),
-      home: Onboarding()
+      home: WelcomePage(),
     );
   }
 }
-
-
-
