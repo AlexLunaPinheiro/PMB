@@ -1,4 +1,4 @@
-import 'package:banco/components/NavBar.dart';
+import 'package:banco/components/Footer.dart';
 import 'package:banco/screens/Boleto.dart';
 import 'package:banco/screens/Cartao.dart';
 import 'package:banco/screens/Pix.dart';
@@ -11,9 +11,12 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: 
-      AppBar(title: Text("Plataforma banco"), ),
+      AppBar(title: Text("Plataforma banco"),
+      toolbarHeight: 100,
+      ),
+      
       body: Column(children: [
-        NavBar(),
+        Footer( index: 1),
         SizedBox(height: 300,),
         Container(width: 00, height: 100, child: Text("Bem vindo", style: TextStyle(fontSize: 32),), )
 

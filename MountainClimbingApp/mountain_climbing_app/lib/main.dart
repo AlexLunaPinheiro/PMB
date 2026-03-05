@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mountain_climbing_app/Home.dart';
-import 'package:mountain_climbing_app/Register.dart';
-import 'package:mountain_climbing_app/login.dart';
-import 'package:mountain_climbing_app/onBoarding.dart';
-import 'package:mountain_climbing_app/onBoarding2.dart';
-import 'package:mountain_climbing_app/welcomePage.dart';
+import 'package:mountain_climbing_app/screens/Home.dart';
+import 'package:mountain_climbing_app/screens/Register.dart';
+import 'package:mountain_climbing_app/screens/login.dart';
+import 'package:mountain_climbing_app/screens/onBoarding.dart';
+import 'package:mountain_climbing_app/screens/onBoarding2.dart';
+import 'package:mountain_climbing_app/screens/welcomePage.dart';
 
 void main() {
   runApp(MyApp());
